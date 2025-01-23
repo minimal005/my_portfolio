@@ -1,5 +1,4 @@
-import { createBrowserRouter, RouterProvider } from "react-router-dom";
-
+import { Route, Routes, HashRouter as Router } from "react-router-dom";
 import RootLayout from "./pages/RootLayout.jsx";
 import Home from "./pages/Home.jsx";
 import AboutMe from "./pages/AboutMe.jsx";
@@ -8,38 +7,21 @@ import ProjectPage from "./pages/ProjectPage.jsx";
 
 import "./styles/main.css";
 
-const router = createBrowserRouter([
-  {
-    path: "/",
-    element: <RootLayout />,
-    children: [
-      {
-        index: true,
-        element: <Home />,
-      },
-      {
-        path: "aboutMe",
-        element: <AboutMe />,
-      },
-      {
-        path: "projects",
-        children: [
-          {
-            index: true,
-            element: <Projects />,
-          },
-          {
-            path: ":titleId",
-            element: <ProjectPage />,
-          },
-        ],
-      },
-    ],
-  },
-]);
-
 function App() {
-  return <RouterProvider router={router} />;
+  return (
+    <Router>
+      <Routes>
+        <Route path="/" element={<RootLayout />}>
+          <Route index element={<Home />} />
+          <Route path="aboutMe" element={<AboutMe />} />
+          <Route path="projects">
+            <Route index element={<Projects />} />
+            <Route path=":titleId" element={<ProjectPage />} />
+          </Route>
+        </Route>
+      </Routes>
+    </Router>
+  );
 }
 
 export default App;
