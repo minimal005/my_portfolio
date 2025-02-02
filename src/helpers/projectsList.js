@@ -43,8 +43,7 @@ export const projects = [
     img: project06,
     skills: ["React", "Vite", "JS", "JSX", "Git & GitHub", "State Management"],
     demo: "https://minimal005.github.io/Quiz-Victorina-React/",
-    gitHubLink:
-      "https://github.com/minimal005/Quiz-Victorina-React?tab=readme-ov-file",
+    gitHubLink: "https://github.com/minimal005/Quiz-Victorina-React",
   },
   {
     title: "timer Game React",
@@ -60,8 +59,8 @@ export const projects = [
       "React Portals",
       "CSS Modules",
     ],
-    demo: "https://github.com/minimal005/timer-game-React",
-    gitHubLink: "https://minimal005.github.io/timer-game-React/",
+    demo: "https://minimal005.github.io/timer-game-React/",
+    gitHubLink: "https://github.com/minimal005/timer-game-React",
   },
   {
     title: "furniture",
@@ -70,7 +69,7 @@ export const projects = [
     img: project02,
     skills: ["HTML", "CSS", "JS", "Git & GitHub"],
     demo: "https://minimal005.github.io/Furniture/",
-    gitHubLink: "https://github.com/minimal005/Furniture?tab=readme-ov-file",
+    gitHubLink: "https://github.com/minimal005/Furniture",
   },
   {
     title: "coffee",
