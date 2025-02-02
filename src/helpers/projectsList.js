@@ -1,46 +1,93 @@
-import project01 from "../assets/img/projects/01.jpg";
-import project01Big from "../assets/img/projects/01-big.jpg";
+import project01 from "./../img/projects/phone.png";
+import project02 from "./../img/projects/furniture.png";
+import project03 from "./../img/projects/coffee.png";
+import project04 from "./../img/projects/tealand.png";
+import project05 from "./../img/projects/cart_shop_react.png";
+import project06 from "./../img/projects/React_quiz.png";
+import project07 from "./../img/projects/Countdown.png";
 
-const projects = [
+export const projects = [
   {
-    title: "homePro",
-    skills: "HTML, CSS, JS, Gulp",
+    title: "phone Catalog",
+    description:
+      "Online store for phones, features include filtering, pagination, and a responsive design styled with SCSS. Led the team as a Team Lead",
+    skills: [
+      "HTML",
+      "SCSS",
+      "JS",
+      "React",
+      "TypeScript",
+      "React Router",
+      "Redux Toolkit",
+      "Git & GitHub",
+      "Bulma",
+      "Vite",
+      "JSX",
+    ],
     img: project01,
-    imgBig: project01Big,
-    gitHubLink: "https://github.com",
+    demo: "https://fs-oct24-pixel-stream.github.io/catalog-frontend/",
+    gitHubLink: "https://github.com/fs-oct24-Pixel-Stream/catalog-frontend",
+  },
+  {
+    title: "cart shop",
+    description: "Elegant",
+    img: project05,
+    skills: ["React", "Vite", "JS", "JSX", "Git & GitHub", "State Management"],
+    demo: "https://minimal005.github.io/cart_shop_react/",
+    gitHubLink: "https://github.com/minimal005/cart_shop_react",
+  },
+  {
+    title: "react Quiz",
+    description:
+      "React Quiz is an interactive quiz application built with React. It allows users to answer questions, skip them, and view results after completing the quiz.",
+    img: project06,
+    skills: ["React", "Vite", "JS", "JSX", "Git & GitHub", "State Management"],
+    demo: "https://minimal005.github.io/Quiz-Victorina-React/",
+    gitHubLink:
+      "https://github.com/minimal005/Quiz-Victorina-React?tab=readme-ov-file",
+  },
+  {
+    title: "timer Game React",
+    description:
+      "React Timer Challenge is an interactive game where users try to stop a timer as close as possible to the target time.",
+    img: project07,
+    skills: [
+      "React",
+      "JS",
+      "JSX",
+      "Git",
+      "React Hooks",
+      "React Portals",
+      "CSS Modules",
+    ],
+    demo: "https://github.com/minimal005/timer-game-React",
+    gitHubLink: "https://minimal005.github.io/timer-game-React/",
   },
   {
     title: "furniture",
-    img: project01,
-    imgBig: project01Big,
-    skills: "HTML, CSS, JS, Gulp",
-    gitHubLink: "https://github.com",
+    description:
+      "Modern landing page for a furniture store; implemented responsive design, sliders, and animations",
+    img: project02,
+    skills: ["HTML", "CSS", "JS", "Git & GitHub"],
+    demo: "https://minimal005.github.io/Furniture/",
+    gitHubLink: "https://github.com/minimal005/Furniture?tab=readme-ov-file",
   },
   {
-    title: "Video portal",
-    img: project01,
-    imgBig: project01Big,
-    skills: "Vue JS, Node.js, MongoDB",
-    gitHubLink: "https://github.com",
+    title: "coffee",
+    description:
+      "Stylish coffee brand landing page built with HTML, CSS, and JavaScript; interactive elements, and a gallery section",
+    img: project03,
+    skills: ["HTML", "CSS", "JS", "Git & GitHub"],
+    demo: "https://minimal005.github.io/Coffee/#",
+    gitHubLink: "https://github.com/minimal005/Coffee",
   },
   {
-    title: "Dating app",
-    img: project01,
-    imgBig: project01Big,
-    skills: "React Native",
-  },
-  {
-    title: "Landing",
-    img: project01,
-    imgBig: project01Big,
-    skills: "HTML, SCSS, JS",
-  },
-  {
-    title: "Gaming community",
-    img: project01,
-    imgBig: project01Big,
-    skills: "React, PHP, MySql",
+    title: "tealand",
+    description:
+      "Elegant tea brand landing page using HTML, CSS, and JavaScript; integrated Swiper.js for sliders, BEM methodology for styling, and responsive design",
+    img: project04,
+    skills: ["HTML", "CSS", "JS", "Git & GitHub"],
+    demo: "https://minimal005.github.io/Tealand/",
+    gitHubLink: "https://github.com/minimal005/Tealand",
   },
 ];
-
-export { projects };
