@@ -8,7 +8,8 @@ export default function Home() {
         <div className="header__wrapper">
           <h1 className="header__title">
             <strong>
-              Hello, my name is <em>Halyna Kravchenko</em>
+              Hello, my name is{" "}
+              <em className="title-color">Halyna Kravchenko</em>
             </strong>
             <br />I am a frontend developer
           </h1>
