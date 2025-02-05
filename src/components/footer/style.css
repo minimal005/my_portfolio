@@ -25,6 +25,19 @@
   width: 25px;
   aspect-ratio: 100%; /* 1/1 */
 }
+.social__item--in {
+  border: 1px solid var(--white);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  width: 28px;
+  height: 28px;
+  border-radius: 5px;
+}
+.social__item--in a {
+  color: inherit;
+}
 .copyright {
   font-size: 16px;
 }

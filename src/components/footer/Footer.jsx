@@ -1,4 +1,3 @@
-import linkedIn from "./../../img/icons/linkedIn.svg";
 import gitHub from "./../../img/icons/gitHub.svg";
 import { Link } from "react-router-dom";
 import "./style.css";
@@ -14,12 +13,12 @@ export default function Footer() {
                 <img src={gitHub} alt="gitHub" />
               </Link>
             </li>
-            <li className="social__item">
+            <li className="social__item social__item--in">
               <Link
                 to="https://www.linkedin.com/in/halyna-kravchenko-451172291/"
                 target="_blank"
               >
-                <img src={linkedIn} alt="linkedIn" />
+                in
               </Link>
             </li>
           </ul>
