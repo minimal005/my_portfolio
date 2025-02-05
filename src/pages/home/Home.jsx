@@ -1,10 +1,19 @@
 import Btn from "../../components/btn/Btn";
+import { motion } from "motion/react";
 import "./style.css";
 
 export default function Home() {
   return (
     <>
-      <header className="header">
+      <motion.header
+        initial={{ opacity: 0, scale: 0.5 }}
+        animate={{ opacity: 1, scale: 1 }}
+        transition={{
+          duration: 0.8,
+          ease: [0, 0.71, 0.2, 1.01],
+        }}
+        className="header"
+      >
         <div className="header__wrapper">
           <h1 className="header__title">
             <strong>
@@ -24,7 +33,7 @@ export default function Home() {
             text="Show Resume"
           />
         </div>
-      </header>
+      </motion.header>
     </>
   );
 }
