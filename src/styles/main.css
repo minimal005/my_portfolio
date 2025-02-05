@@ -3,7 +3,7 @@
 
 :root {
   --black: #021547;
-  --white: #cadef6b8;
+  --white: #cadef6d3;
   --purple: #6800ef;
 
   --text-color: #202227;
@@ -16,7 +16,7 @@
 
   /* Light mode */
   --page-bg: var(--blue);
-  --text-color: #cadef6b8;
+  --text-color: var(--white);
   --header-text: #202227;
   --title-1: var(--accent);
 
@@ -77,7 +77,7 @@ body {
   font-weight: 700;
   letter-spacing: 0.4rem;
   text-transform: uppercase;
-  background: linear-gradient(90deg, #cadef6e2 40%, #6a87b5a5 80%);
+  background: linear-gradient(90deg, #cadef6e2 40%, #6a87b5a5 100%);
   background-clip: text;
   -webkit-text-fill-color: transparent;
 }
