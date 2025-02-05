@@ -76,10 +76,39 @@ body {
   font-weight: 700;
   letter-spacing: 0.4rem;
   text-transform: uppercase;
-  background: linear-gradient(90deg, #cadef6e2 40%, #6a87b5a5 100%);
+  background: linear-gradient(90deg, #c1e348c0 40%, #004ead 120%);
   background-clip: text;
   -webkit-text-fill-color: transparent;
+  outline: none;
+  position: relative;
+  z-index: 0;
+  background-size: 200% 100%; /* Збільшуємо розмір фону для анімації */
+  animation: moveGradient 5s linear infinite; /* Додаємо анімацію */
 }
+@keyframes moveGradient {
+  0% {
+    background-position: 0% 50%; /* Початкова позиція градієнта */
+  }
+  50% {
+    background-position: 100% 50%; /* Проміжна позиція градієнта */
+  }
+  100% {
+    background-position: 0% 50%; /* Повертаємо градієнт на початкову позицію */
+  }
+}
+
+@keyframes glowing {
+  0% {
+    background-position: 0 0;
+  }
+  50% {
+    background-position: 200% 0;
+  }
+  100% {
+    background-position: 0 0;
+  }
+}
+
 .title-2 {
   margin-bottom: 20px;
   font-size: 40px;
