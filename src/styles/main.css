@@ -3,12 +3,12 @@
 
 :root {
   --black: #021547;
-  --white: #8e76fa;
+  --white: #cadef6b8;
   --purple: #6800ef;
 
-  --text-color: var(--black);
+  --text-color: #202227;
 
-  --dark-bg: var(--black);
+  --dark-bg: #202227;
   --dark-border: var(--black-border);
 
   --nav-text: var(--white);
@@ -16,8 +16,8 @@
 
   /* Light mode */
   --page-bg: var(--blue);
-  --text-color: #d6d6d6;
-  --header-text: var(--black);
+  --text-color: #cadef6b8;
+  --header-text: #202227;
   --title-1: var(--accent);
 
   --project-card-bg: var(--white);
@@ -34,11 +34,11 @@ body {
   font-family: "DM Sans", sans-serif;
   letter-spacing: -0.5px;
 
-  background-color: #1d0433;
+  background-color: #474a52;
   background-attachment: fixed;
   background-size: cover;
   background-position: center;
-  background: linear-gradient(180deg, #4b00ff 0%, #482b6f 200%);
+
   color: var(--text-color);
 }
 #root {
@@ -77,7 +77,7 @@ body {
   font-weight: 700;
   letter-spacing: 0.4rem;
   text-transform: uppercase;
-  background: linear-gradient(90deg, #e781fb 40%, #8e76fa 70%);
+  background: linear-gradient(90deg, #cadef6e2 40%, #6a87b5a5 80%);
   background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -101,7 +101,7 @@ body {
   font-weight: 600;
 
   transition: opacity 0.2s ease-in;
-  border: 1.5px solid var(--accent);
+  border: 1.5px solid #cadef6b8;
 }
 
 .btn:hover {

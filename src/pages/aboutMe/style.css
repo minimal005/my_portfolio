@@ -34,7 +34,7 @@ p + p {
   aspect-ratio: 1/1;
 }
 .aboutMe__photo:before {
-  border: 2px solid #e781fb;
+  border: 2px solid #cadef6b8;
   transform: translate(30px, -30px);
   position: absolute;
   content: "";
