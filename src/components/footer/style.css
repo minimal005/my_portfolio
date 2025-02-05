@@ -9,7 +9,6 @@
 
 .footer__wrapper {
   display: flex;
-  /* flex-direction: column; */
   flex-direction: row-reverse;
   justify-content: space-between;
   align-items: center;

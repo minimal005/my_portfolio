@@ -8,11 +8,11 @@
   flex-direction: column;
 }
 .project__wrapper {
-  /* padding: 8px; */
   height: 75%;
 }
 .project__img {
-  border-radius: 10px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
   height: 100%;
   width: 100%;
   transition: opacity 0.2s ease-in;

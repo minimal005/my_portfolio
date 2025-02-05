@@ -1,10 +1,10 @@
 import { useParams } from "react-router-dom";
-
-import { projects } from "../../helpers/projectsList";
 import BtnGitHub from "../../components/btnGitHub/BtnGitHub";
 import { Section } from "../../components/section/Section";
 import Btn from "../../components/btn/Btn";
+
 import { correctTitle } from "../../helpers/title";
+import { projects } from "../../helpers/projectsList";
 import "./style.css";
 
 export default function ProjectPage() {

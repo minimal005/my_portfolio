@@ -1,7 +1,7 @@
 import MyPhoto from "../../components/myPhoto/MyPhoto";
-import "./style.css";
 import Contacts from "../../components/contacts/Contacts";
 import { Section } from "../../components/section/Section";
+import "./style.css";
 
 export default function AboutMe() {
   return (

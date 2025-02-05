@@ -9,8 +9,6 @@
   padding-inline: 15px;
 }
 
-.skills__list {
-}
 .skills__item {
   list-style-type: disc;
   &::marker {
