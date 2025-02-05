@@ -4,7 +4,7 @@ export default function Contacts() {
   return (
     <address>
       <p>
-        <span className="title-color">Location: </span> Ukraine, Ternopil
+        <span className="title-color">Location: </span> Ukraine
       </p>
       <p>
         <span className="title-color">Phone: </span>

@@ -29,8 +29,9 @@ export const projects = [
     gitHubLink: "https://github.com/fs-oct24-Pixel-Stream/catalog-frontend",
   },
   {
-    title: "cart shop",
-    description: "Elegant",
+    title: "cart Shop",
+    description:
+      "This project is an online store for elegant clothing, built using React. It includes a product catalog, a shopping cart, and state management using React Context.",
     img: project05,
     skills: ["React", "Vite", "JS", "JSX", "Git & GitHub", "State Management"],
     demo: "https://minimal005.github.io/cart_shop_react/",

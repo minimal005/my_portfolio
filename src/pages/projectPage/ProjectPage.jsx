@@ -11,7 +11,6 @@ export default function ProjectPage() {
   const { id } = useParams();
 
   const project = projects[id];
-
   const skills = project.skills.join(" | ");
 
   return (

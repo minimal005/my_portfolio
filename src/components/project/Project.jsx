@@ -1,7 +1,8 @@
 /* eslint-disable react/prop-types */
 import { NavLink } from "react-router-dom";
-import "./style.css";
+
 import { correctTitle } from "../../helpers/title";
+import "./style.css";
 
 const Project = ({ title, img, index }) => {
   return (
