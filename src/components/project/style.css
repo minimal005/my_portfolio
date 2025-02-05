@@ -1,6 +1,6 @@
 .project {
   max-width: 370px;
-  background-color: var(--project-card-bg);
+  background-color: #acb7c5d3;
   box-shadow: var(--box-shadow);
   border-radius: 10px;
   height: 100%;
