@@ -5,8 +5,28 @@ import project04 from "./../img/projects/tealand.png";
 import project05 from "./../img/projects/cart_shop_react.png";
 import project06 from "./../img/projects/React_quiz.png";
 import project07 from "./../img/projects/Countdown.png";
+import project08 from "./../img/projects/kanban.png";
 
 export const projects = [
+  {
+    title: "GitHub Kanban Board",
+    description:
+      "This project is a Kanban Board for GitHub repository issues, allowing users to visualize and manage issues efficiently. Users can enter a repository URL, load its issues, and organize them into different columns",
+    skills: [
+      "HTML",
+      "React",
+      "TypeScript",
+      "Redux toolkit",
+      "DnD Kit",
+      "Cypress",
+      "Chakra UI",
+      "Vite",
+      "JSX",
+    ],
+    img: project08,
+    demo: "https://minimal005-kanban.vercel.app/",
+    gitHubLink: "https://github.com/minimal005/kanban",
+  },
   {
     title: "phone Catalog",
     description:
