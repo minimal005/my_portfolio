@@ -1,6 +1,8 @@
 export const skills = [
   "Typescript, JavaScript",
   "React, Redux-toolkit",
+  "React Router, React Query, React Hook Form",
+  "Next.js, SSR, SSG",
   "HTML5, CSS3, Sass, BEM, Material UI, Tailwind, Bulma",
   "Fetch, REST API, Axios",
   "Git, Webpack, Gulp, Vite, Babel, Eslint, Prettier",
